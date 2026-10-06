@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Saeed — Full Stack Developer specializing in MERN Stack, Node.js, React.js, Ruby on Rails, REST APIs and database development.">
+    <meta name="author" content="Muhammad Saeed">
+    <title>Muhammad Saeed | Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#home" class="logo" aria-label="Muhammad Saeed — home">
+                <span class="logo__mark">MS</span>
+                <span class="logo__text">Muhammad Saeed<em>Full Stack Developer</em></span>
+            </a>
+
+            <nav class="nav" id="nav" aria-label="Main navigation">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#experience" class="nav__link">Experience</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home">
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <p class="eyebrow"><span class="eyebrow__dot"></span> Available for freelance &amp; full-time work</p>
+                    <h1 class="hero__title">
+                        Full Stack Developer<br>
+                        building <span class="accent">web apps</span> that<br>
+                        <em>actually hold up.</em>
+                    </h1>
+                    <p class="hero__lead">
+                        I'm Muhammad Saeed. I design and build complete web products with the
+                        <strong>MERN Stack</strong> and <strong>Ruby on Rails</strong> — clean frontends,
+                        solid APIs, well-modelled databases and secure authentication.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--primary">View my work</a>
+                        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+                    </div>
+
+                    <ul class="hero__stats">
+                        <li><strong>15+</strong><span>Projects delivered</span></li>
+                        <li><strong>MERN</strong><span>&amp; Ruby on Rails</span></li>
+                        <li><strong>3</strong><span>Databases used daily</span></li>
+                    </ul>
+                </div>
+
+                <div class="hero__photo">
+                    <div class="hero__photo-frame">
+                        <img src="assets/profile.jpg" alt="Portrait of Muhammad Saeed, Full Stack Developer" width="816" height="1292" loading="eager">
+                    </div>
+                    <div class="hero__badge">
+                        <span class="hero__badge-line">MERN Stack</span>
+                        <span class="hero__badge-line hero__badge-line--muted">Node · React · Rails</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="hero__scroll" aria-label="Scroll to about section">
+                <span>Scroll</span>
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" aria-hidden="true"><path d="M7 1v22m0 0l5-5m-5 5l-5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section" id="about">
+            <div class="container">
+                <p class="section__label"><span>01</span> About</p>
+                <div class="about__grid">
+                    <div class="about__main">
+                        <h2 class="section__title">Results-driven developer focused on <em>scalable, high-performance</em> web applications.</h2>
+                        <p>
+                            I design, develop and maintain modern web applications end-to-end — from responsive
+                            React frontends to Express and Rails backends, database schemas, REST APIs and
+                            everything in between.
+                        </p>
+                        <p>
+                            I've worked across <strong>E-commerce, Real Estate, Service-Based, Multi-Vendor,
+                            Blogging and Real-Time Content Platforms</strong>, with a consistent focus on
+                            authentication, role-based access control, payment integrations, performance
+                            optimization and code that other developers can actually maintain.
+                        </p>
+                        <p>
+                            I care about the boring parts too: sensible data models, validated inputs,
+                            optimized queries, version control discipline and shipping without breaking production.
+                        </p>
+                    </div>
+
+                    <aside class="about__side">
+                        <div class="card card--flat">
+                            <h3 class="card__title">What I do best</h3>
+                            <ul class="check-list">
+                                <li>Full stack web application development</li>
+                                <li>RESTful API design &amp; integration</li>
+                                <li>Database design &amp; query optimization</li>
+                                <li>Authentication &amp; role-based access control</li>
+                                <li>Payment gateway integration</li>
+                                <li>Performance, security &amp; SEO tuning</li>
+                            </ul>
+                        </div>
+                        <div class="card card--flat">
+                            <h3 class="card__title">Education</h3>
+                            <p class="about__edu"><strong>Bachelor's in Computer Science</strong><br>Relevant degree program</p>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="section section--alt" id="skills">
+            <div class="container">
+                <p class="section__label"><span>02</span> Technical Skills</p>
+                <h2 class="section__title section__title--center">The tools I reach for <em>every day</em></h2>
+
+                <div class="skills__grid">
+                    <article class="skill-card">
+                        <div class="skill-card__head">
+                            <span class="skill-card__num">01</span>
+                            <h3>Frontend</h3>
+                        </div>
+                        <ul class="tag-list">
+                            <li>React.js</li><li>JavaScript (ES6+)</li><li>HTML5</li><li>CSS3</li>
+                            <li>Bootstrap</li><li>Responsive Design</li><li>UI/UX Implementation</li>
+                            <li>Component-Based Architecture</li><li>API Integration</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__head">
+                            <span class="skill-card__num">02</span>
+                            <h3>Backend</h3>
+                        </div>
+                        <ul class="tag-list">
+                            <li>Node.js</li><li>Express.js</li><li>Ruby on Rails</li><li>PHP</li>
+                            <li>RESTful APIs</li><li>Auth &amp; Authorization</li><li>Role-Based Access</li>
+                            <li>Third-Party API Integration</li><li>Server-Side Development</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__head">
+                            <span class="skill-card__num">03</span>
+                            <h3>Databases</h3>
+                        </div>
+                        <ul class="tag-list">
+                            <li>MongoDB</li><li>MySQL</li><li>PostgreSQL</li><li>Database Design</li>
+                            <li>Data Modeling</li><li>CRUD Operations</li><li>Query Optimization</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__head">
+                            <span class="skill-card__num">04</span>
+                            <h3>E-Commerce &amp; Platforms</h3>
+                        </div>
+                        <ul class="tag-list">
+                            <li>E-Commerce Development</li><li>Multi-Vendor Platforms</li>
+                            <li>Payment Gateway Integration</li><li>Cart &amp; Checkout Systems</li>
+                            <li>Order Management</li><li>Vendor Management</li><li>User Management</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__head">
+                            <span class="skill-card__num">05</span>
+                            <h3>Tools &amp; Workflow</h3>
+                        </div>
+                        <ul class="tag-list">
+                            <li>Git</li><li>GitHub</li><li>VS Code</li><li>Postman</li>
+                            <li>cPanel</li><li>FileZilla</li><li>npm</li><li>REST API Testing</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__head">
+                            <span class="skill-card__num">06</span>
+                            <h3>Performance &amp; Security</h3>
+                        </div>
+                        <ul class="tag-list">
+                            <li>Web Performance Optimization</li><li>API Optimization</li>
+                            <li>Database Optimization</li><li>Secure Authentication</li>
+                            <li>Input Validation</li><li>SEO-Friendly Development</li><li>Web Security Practices</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="rails">
+                    <div class="rails__body">
+                        <p class="section__label section__label--light"><span>03</span> Ruby on Rails</p>
+                        <h3>Hands-on Rails development for structured, database-driven applications.</h3>
+                        <p>
+                            Beyond the MERN stack, I build backend services and full applications with
+                            Ruby on Rails — following MVC conventions, RESTful routing and clean business logic.
+                        </p>
+                    </div>
+                    <ul class="tag-list tag-list--light">
+                        <li>MVC Architecture</li><li>RESTful APIs</li><li>CRUD Applications</li>
+                        <li>Database Relationships</li><li>Authentication Systems</li><li>User &amp; Role Management</li>
+                        <li>PostgreSQL / MySQL</li><li>Backend Business Logic</li><li>API Integrations</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EXPERIENCE ================= -->
+        <section class="section" id="experience">
+            <div class="container">
+                <p class="section__label"><span>04</span> Professional Experience</p>
+                <h2 class="section__title">Where I've <em>worked</em></h2>
+
+                <div class="timeline">
+                    <article class="timeline__item reveal">
+                        <div class="timeline__marker" aria-hidden="true"></div>
+                        <div class="timeline__content">
+                            <header class="timeline__head">
+                                <div>
+                                    <h3>Full Stack Developer</h3>
+                                    <p class="timeline__org">CV Institute</p>
+                                </div>
+                                <span class="timeline__date">MM/YYYY – Present</span>
+                            </header>
+                            <ul class="bullet-list">
+                                <li>Develop, customize and maintain full-stack web applications for institutional and client requirements.</li>
+                                <li>Build responsive, interactive frontends with <strong>React.js, JavaScript, HTML5, CSS3 and Bootstrap</strong>.</li>
+                                <li>Develop scalable backend applications with <strong>Node.js and Express.js</strong>.</li>
+                                <li>Create and integrate <strong>RESTful APIs</strong> connecting frontend and backend services.</li>
+                                <li>Design and manage databases across <strong>MongoDB, MySQL and PostgreSQL</strong>.</li>
+                                <li>Build secure authentication and authorization systems with role-based access control.</li>
+                                <li>Integrate third-party APIs and external services into production applications.</li>
+                                <li>Deliver e-commerce functionality: products, carts, checkout, orders, payments and user management.</li>
+                                <li>Work with <strong>Ruby on Rails</strong> for backend development and API-driven platforms.</li>
+                                <li>Optimize applications for performance, scalability, security and responsive UX.</li>
+                                <li>Use <strong>Git and GitHub</strong> for version control and collaborative development.</li>
+                                <li>Debug and troubleshoot frontend, backend, database and API issues.</li>
+                                <li>Collaborate with design, marketing and development teams on business-focused solutions.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="highlights">
+                    <h3 class="highlights__title">Professional highlights</h3>
+                    <div class="highlights__grid">
+                        <div class="highlight"><strong>15+</strong><span>Full-scale web projects for local &amp; international clients</span></div>
+                        <div class="highlight"><strong>MERN</strong><span>Plus Ruby on Rails backend experience</span></div>
+                        <div class="highlight"><strong>RBAC</strong><span>Authentication &amp; role-based access control</span></div>
+                        <div class="highlight"><strong>APIs</strong><span>Multiple RESTful &amp; third-party integrations</span></div>
+                    </div>
+                    <ul class="bullet-list bullet-list--columns">
+                        <li>Built e-commerce and multi-vendor platforms with user, vendor, product, order and payment management.</li>
+                        <li>Developed responsive, performance-optimized web applications.</li>
+                        <li>Experienced in database architecture, API development and secure authentication.</li>
+                        <li>Strong understanding of modern MVC and full-stack application architecture.</li>
+                        <li>Proficient in Git/GitHub-based development workflows.</li>
+                        <li>Focused on UI/UX and business-oriented application development.</li>
+                        <li>Experienced in troubleshooting, debugging and maintaining production-ready applications.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section section--alt" id="projects">
+            <div class="container">
+                <p class="section__label"><span>05</span> Key Projects</p>
+                <h2 class="section__title">Things I've <em>built</em></h2>
+
+                <div class="projects">
+
+                    <article class="project reveal">
+                        <div class="project__index" aria-hidden="true">01</div>
+                        <div class="project__body">
+                            <div class="project__head">
+                                <div>
+                                    <h3 class="project__title">Thaikedar</h3>
+                                    <p class="project__type">Real Estate &amp; E-Commerce Platform</p>
+                                </div>
+                                <ul class="project__stack">
+                                    <li>React.js</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>REST APIs</li>
+                                </ul>
+                            </div>
+                            <p class="project__desc">
+                                A hybrid real estate and e-commerce platform connecting businesses, factories,
+                                property owners and customers through a single digital marketplace.
+                            </p>
+                            <details class="project__details">
+                                <summary>Features developed <span class="summary__chevron" aria-hidden="true">+</span></summary>
+                                <ul class="bullet-list bullet-list--columns">
+                                    <li>Business registration and user onboarding</li>
+                                    <li>Vendor / business account management</li>
+                                    <li>Property listing and management system</li>
+                                    <li>Online shop creation for registered businesses</li>
+                                    <li>Product listing and inventory management</li>
+                                    <li>Customer-to-business purchasing flow</li>
+                                    <li>Custom user and vendor dashboards</li>
+                                    <li>Role-based access control</li>
+                                    <li>Secure authentication and authorization</li>
+                                    <li>Shopping cart and checkout</li>
+                                    <li>Multiple payment gateway integration</li>
+                                    <li>Order management and tracking</li>
+                                    <li>Responsive frontend interface</li>
+                                    <li>Performance and security optimization</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project__index" aria-hidden="true">02</div>
+                        <div class="project__body">
+                            <div class="project__head">
+                                <div>
+                                    <h3 class="project__title">TheRealEdits</h3>
+                                    <p class="project__type">Service-Based &amp; Real-Time News Platform</p>
+                                </div>
+                                <ul class="project__stack">
+                                    <li>React.js</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>REST APIs</li>
+                                </ul>
+                            </div>
+                            <p class="project__desc">
+                                A service-based web platform built for real-time news publishing, live content
+                                delivery and service presentation — optimized for high-volume content.
+                            </p>
+                            <details class="project__details">
+                                <summary>Features developed <span class="summary__chevron" aria-hidden="true">+</span></summary>
+                                <ul class="bullet-list bullet-list--columns">
+                                    <li>Real-time content publishing system</li>
+                                    <li>Dynamic news management</li>
+                                    <li>Category-based content organization</li>
+                                    <li>User-friendly content management</li>
+                                    <li>Dynamic frontend components</li>
+                                    <li>REST API-based data communication</li>
+                                    <li>Social media API integrations</li>
+                                    <li>SEO-friendly architecture</li>
+                                    <li>Responsive interface across devices</li>
+                                    <li>Optimized page loading and performance</li>
+                                    <li>Scalable backend architecture</li>
+                                    <li>Database-driven content management</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </article>
+
+                    <article class="project reveal">
+                        <div class="project__index" aria-hidden="true">03</div>
+                        <div class="project__body">
+                            <div class="project__head">
+                                <div>
+                                    <h3 class="project__title">E-Bazaar</h3>
+                                    <p class="project__type">Multi-Vendor E-Commerce Platform</p>
+                                </div>
+                                <ul class="project__stack">
+                                    <li>React.js</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>Bootstrap</li>
+                                </ul>
+                            </div>
+                            <p class="project__desc">
+                                A scalable multi-vendor marketplace where multiple sellers create and manage
+                                their own stores while customers browse, purchase and track products centrally.
+                            </p>
+                            <details class="project__details">
+                                <summary>Features developed <span class="summary__chevron" aria-hidden="true">+</span></summary>
+                                <ul class="bullet-list bullet-list--columns">
+                                    <li>Multi-vendor architecture</li>
+                                    <li>Admin, Vendor and Customer roles</li>
+                                    <li>Vendor registration and onboarding</li>
+                                    <li>Vendor dashboards</li>
+                                    <li>Product and inventory management</li>
+                                    <li>Sales and revenue management</li>
+                                    <li>Order management and tracking</li>
+                                    <li>Customer account management</li>
+                                    <li>Role-based access control</li>
+                                    <li>Shopping cart and checkout</li>
+                                    <li>Payment gateway integration</li>
+                                    <li>REST API architecture</li>
+                                    <li>Secure authentication</li>
+                                    <li>Responsive frontend and performance optimization</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section" id="contact">
+            <div class="container">
+                <p class="section__label"><span>06</span> Contact</p>
+                <div class="contact__grid">
+                    <div class="contact__intro">
+                        <h2 class="section__title">Have a project in mind? <em>Let's talk.</em></h2>
+                        <p>
+                            Whether it's a full product build, an API integration, a database overhaul or a
+                            site that needs to actually be fast on mobile — send me a message and I'll get back to you.
+                        </p>
+                        <ul class="contact__links">
+                            <!-- REPLACE the href values below with your real email / GitHub / LinkedIn -->
+                            <li>
+                                <span class="contact__key">Email</span>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </li>
+                            <li>
+                                <span class="contact__key">GitHub</span>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/your-username</a>
+                            </li>
+                            <li>
+                                <span class="contact__key">LinkedIn</span>
+                                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-username</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="contact__form" id="contactForm" novalidate>
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--block">Send message</button>
+                        <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>&copy; <span id="year">2026</span> Muhammad Saeed — Full Stack Developer. Built with HTML, CSS &amp; JavaScript.</p>
+            <a href="#home" class="footer__top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
